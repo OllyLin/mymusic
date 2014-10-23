@@ -1,0 +1,236 @@
+* {
+	margin: 0;
+}
+body {
+	font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+	font-size: 8pt;
+	margin: 0px;
+	color: white;
+	-webkit-user-select: none;
+}
+
+#Linchenge {
+	z-index: 5;
+	position: fixed;
+	top: 0;
+	background-color: #000;
+	background-size: 100%;
+	opacity: 0.9;
+	height: 80px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.des {
+	z-index: 10;
+ 	position: fixed;
+ 	top : 0;
+ 	width: 100%;
+}
+
+.limit {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.des h1 {
+	height: 80px;
+	line-height: 80px;
+	float: left;
+    font-size: 30px;
+	color: white;
+	font-weight: 100;
+}
+
+.des h1 span {
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.nav {
+	float: right;
+}
+
+.nav ul li {
+	height: 80px;
+	width: 60px;
+	font-size: 18px;
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+}
+
+.nav ul li a {
+	text-align: center;
+	display: inline-block;
+	width: 50px;
+	height: 80px;
+	line-height: 80px;
+}
+
+#logo {
+	background-image: url("pictures/muse17.jpg");
+	background-size: cover;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	overflow: hidden;
+	font-size: 45px;
+	text-align: center;
+	position: relative;
+}
+
+#logo img {
+	margin-top: 190px;
+    height: 40%;
+    width: 40%;
+    vertical-align: -20px;
+    opacity: 0.99;
+}
+
+#logo h3 {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	font-weight: lighter;
+}
+
+#purple {
+	background-color: #FF3333;
+}
+
+#blackblue {
+	background-color: #6633CC;
+}
+
+#blue {
+	background-color: #009900;
+}
+
+#greenblue {
+	background-color: #990099;
+}
+
+.description {
+	position: absolute;
+	width:100%;
+	top: 40%;
+	color: #fff;
+	font-size: 40px;
+}
+
+.center {
+	width: 250px;
+	margin: 0 auto;
+}
+
+.description h3 {
+	width: 100%;
+	text-align: left;
+}
+
+.description h4 {
+    font-size: 15px;
+    text-align: left;
+    font-weight: lighter;
+    padding-left: 5px;
+}
+
+.section {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+
+.farsing {
+	background-image: url("pictures/oumei3.jpg");
+	background-size: cover;
+	opacity: 0.26;
+	height: 400px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.toneget {
+	background-image: url("pictures/oumei6.jpg");
+	opacity: 0.26;
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+.gonesoul {
+	background-image: url("pictures/muse8.jpg");
+	opacity: 0.26;
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.changeme {
+	background-image: url("pictures/oumei1.jpg");
+	opacity: 0.26;
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	font-weight: 700;
+	color: white;
+}
+
+.append {
+	background-size: 100%;
+	background: rgb(1,1,1);
+	height: 90px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.limit p {
+	display: inline-block;
+	line-height: 90px;
+	font-weight: lighter;
+}
+
+.follow {
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    float: right;
+}
+
+.fa {
+	float: right;
+	display: inline-block;
+	font-size: 18px;
+	margin-top: 35px;
+	margin-left: 20px;
+}

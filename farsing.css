@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+    background-color: #fa9d87;
+    font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+	font-size: 8pt;
+	color: black;
+	-webkit-user-select: none;
+}
+
+.mask {
+	background-color: #FF3333;
+    width: 100%;
+    height: 1000px;
+}
+
+.bg {
+	width: 100%;
+    height: 1000px;
+	background-image: url("pictures/oumei3.jpg");
+	opacity: 0.26;
+	background-repeat: no-repeat;
+	background-image: cover;
+}
+
+.page {
+	position: absolute;
+	top: 0;
+	left: 18.5%;
+    width: 63%;
+    height: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.firstline {
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+
+.logo {
+	opacity: 1;
+    width: 200px;
+    height: 80px;
+    float: left;
+}
+
+.logo h1 {
+	height: 80px;
+	line-height: 80px;
+	float: left;
+    font-size: 30px;
+	color: white;
+	font-weight: 100;
+}
+
+.logo h1 span {
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.back {
+    width: 60px;
+    height: 80px;
+    float: right;
+	line-height: 80px;
+    font-size: 20px;
+	color: white;
+	font-weight: 100;
+}
+
+.func {
+	width: 32.4%;
+	height: 800px;
+	margin-right: 1.4%;
+	float: left;
+	position: relative;
+}
+
+.font ul {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.font ul li {
+	height: 50px;
+	font-size: 14px;
+	line-height: 50px;
+    list-style-type: none;
+    color: white;
+}
+
+.func1 {
+	width: 32.4%;
+	height: 800px;
+	position: absolute;
+	top: 80px;
+	left: 0;
+}
+
+.func2 {
+	width: 32.4%;
+	height: 800px;
+	position: absolute;
+	top: 80px;
+	left: 33.8%;
+}
+
+.font h1 {
+	font-family: "Microsoft Yahei";
+	height: 80px;
+	line-height: 80px;
+    width: 22%;
+	margin: 0 auto;
+    color: white;
+    font-weight: bold;
+}
+
+.player {
+    width: 32.4%;
+    height: 320px;
+    float: left;
+}
+
+.me {
+	width: 32.4%;
+	height: 467px;
+	margin-top: 1.5%;
+	float: left;
+}
+
+.append {
+	width: 100%;
+}
+
+.changecolor {
+    background-color: white;
+	opacity: 0.46;
+}
